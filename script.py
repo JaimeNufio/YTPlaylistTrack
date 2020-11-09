@@ -53,6 +53,8 @@ def scanPlaylist(id):
         except:
             currentPlaylists[name][i]={}
             currentPlaylists[name][i]['Title'] = "Failed to Retrieve"
+            currentPlaylists[name][videoData['id']]['VideoUrl'] = "" #"https://www.youtube.com/watch?v="+videoData['id']
+            currentPlaylists[name][videoData['id']]['ChannelUrl'] = "" #"https://www.youtube.com/channel/"+videoData['snippet']['channelId']
 
 def comparePlaylist(id):
 
@@ -76,7 +78,7 @@ def comparePlaylist(id):
             #print(song)
 
             #Is song (From Stored) not in currentPlaylist? if not, it's ben removed.
-            if song not in currentPlaylists[id]:
+            if song not in currentPlaylists[id] and song != "Failed to Retrieve":
                 #print("\""+storedPlaylist[id][song]['Title']+"\" is missing.")
                 missing[song]={}
                 missing[song]['Title'] = storedPlaylist[id][song]['Title']
@@ -85,7 +87,7 @@ def comparePlaylist(id):
 
         for song in currentPlaylists[id].keys():
             #Is song(From Current) not in storedPlaylist?
-            if song not in storedPlaylist[id]:
+            if song not in storedPlaylist[id] and song != "Failed to Retrieve":
                 toAdd[song] = currentPlaylists[id][song]
                 updateStoredFlag = True
                 #print(currentPlaylists[id][song])
