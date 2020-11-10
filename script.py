@@ -23,7 +23,7 @@ def playlistRead():
 
     with open("./json/config.json", "r") as file:
         obj = json.load(file)
-        playlistIds = obj["debugIds"]
+        playlistIds = obj["playlistIds"]
         date = obj['date']
 
     return playlistIds
@@ -144,7 +144,7 @@ def writeCurrentPlaylist():
               # del to[item][song]
               #print("Remove",currentPlaylists[item][song]['Title'],"?")
                 toWrite[playlist][song] = currentPlaylists[playlist][song]
-            else:
+            #else:
                 #print(currentPlaylists[playlist][song])
 
     with open("./json/playlists.json", "w") as file:

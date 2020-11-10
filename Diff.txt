@@ -1,10 +1,7 @@
-[Scan Date: 09/11/2020 22:40:01]
-[Last Backup Date: 09/11/2020 22:38:46]
+[Scan Date: 09/11/2020 22:43:39]
+[Last Backup Date: 09/11/2020 22:42:42]
 
-Updates for Sample:
-
-Updates for Samples dos:
+Updates for Rhythmus:
 No changes.
 
-Updates for Sample tres:
-No changes.
+Updates for Symphonious:
