@@ -145,7 +145,7 @@ def writeCurrentPlaylist():
               #print("Remove",currentPlaylists[item][song]['Title'],"?")
                 toWrite[playlist][song] = currentPlaylists[playlist][song]
             else:
-                print(currentPlaylists[playlist][song])
+                #print(currentPlaylists[playlist][song])
 
     with open("./json/playlists.json", "w") as file:
         json.dump(toWrite,file,indent=4)

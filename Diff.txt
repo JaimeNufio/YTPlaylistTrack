@@ -1,9 +1,7 @@
-[Scan Date: 09/11/2020 22:38:38]
-[Last Backup Date: 09/11/2020 22:38:12]
+[Scan Date: 09/11/2020 22:40:01]
+[Last Backup Date: 09/11/2020 22:38:46]
 
 Updates for Sample:
-- TO DELETE From https://www.youtube.com/channel/UCxRxe1gWMXQYx1hxmcsWmnA
-- TO PRIVATE From https://www.youtube.com/channel/UCxRxe1gWMXQYx1hxmcsWmnA
 
 Updates for Samples dos:
 No changes.
