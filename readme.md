@@ -16,9 +16,6 @@ Utility for tracking of Youtube playlists, just in case a song gets removed.
 ### Advanced Ussage:
 - inside of config.json, add or change playlists by adding strings to "playlistIds"
 
-
-### For the non-Birthday Girl:
-
 You can add your api key by including a file named "keys.json", and making the text:
 
 ```
