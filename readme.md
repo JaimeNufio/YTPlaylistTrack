@@ -1,5 +1,4 @@
 # YTPlaylistTrack
-## *Happy Birthday Jocelis Gutierrez!!!*
 
 ### Introduction:
 Utility for tracking of Youtube playlists, just in case a song gets removed.
