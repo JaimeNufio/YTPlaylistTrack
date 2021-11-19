@@ -1,5 +1,7 @@
 # YTPlaylistTrack
 
+<img src="https://www.freeiconspng.com/thumbs/youtube-logo-png/youtube-logo-png-transparent-image-5.png" height="100" />
+
 ### Introduction:
 Utility for tracking of Youtube playlists, just in case a song gets removed.
 
@@ -25,3 +27,7 @@ You can add your api key by including a file named "keys.json", and making the t
     
 }
 ```
+
+### Technology:
+
+Python3
